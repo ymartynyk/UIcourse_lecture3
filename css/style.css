@@ -1,8 +1,7 @@
-
-/* clearfix */
 a {
     color: #9ddf00;
 }
+/* clearfix */
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -20,9 +19,7 @@ a {
     background: url("../img/background.jpg") no-repeat scroll center top / cover;
 }
 header {
-    width: 960px;
-    margin: 0 auto;
-    padding: 0;
+    margin-bottom: 20px;
 }
 /*login menu*/
 .login {
@@ -42,7 +39,6 @@ header {
     padding-left: 8px;
     width: 190px;
 }
-
 .checkbox-login::-webkit-input-placeholder {
     color: #666;
 }
@@ -105,14 +101,19 @@ header {
     margin-top: 0;
     padding: 0;
     margin-bottom: 0;
+    color: #fff;
 }
-.menu-bar ul {
+.menu_bar_nav {
+    margin: 0;
+    padding: 0;
+}
+.menu_bar_nav ul {
     float: left;
     margin: 0;
     padding: 0;
 }
-.menu-bar li {
-    color: #fff;
+.menu_bar_nav li {
+
     float: left;
     font-family: Calibri, serif;
     font-size: 14px;
@@ -121,14 +122,14 @@ header {
     text-align: left;
     text-transform: uppercase;
 }
-.menu-bar li:first-child {
+.menu_bar_nav li:first-child {
     margin-left: 23px;
 }
-.menu-bar li a {
+.menu_bar_nav a {
     color: #fff;
     text-decoration: none;
 }
-.menu-bar li a:hover{
+.menu_bar_nav li a:hover{
     color: #92cf02;
 }
 .header-btn {
@@ -180,7 +181,6 @@ header {
     border-top: solid 1px #b3ff00;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin-bottom: 20px;
     overflow: hidden;
 
     -webkit-box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
@@ -290,12 +290,7 @@ header {
 .slider {
     height: 272px;
     background-color: #363638;
-    width: 960px;
-    margin: 0 auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     margin-bottom: 23px;
 }
 .slider_logo {
@@ -359,6 +354,7 @@ header {
     float: left;
     overflow: hidden;
     margin-bottom: 26px;
+    margin-right: 23px;
 }
 .box_title {
     margin: 0 auto;
@@ -449,7 +445,7 @@ hr {
     font: 14px/16px Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
     color: #afafaf;
     float: right;
-    margin: 0 13px 17px 0;
+    margin: 0 13px 20px 0;
 }
 .comments p {
     margin: 9px 0 0 0;
@@ -569,8 +565,47 @@ hr {
 }
 .page_nav {
     float: left;
-    margin: 5px 20px 150px 110px;
+    margin: 5px 20px 0 80px;
 }
 .page_nav ul {
     margin-top: -15px;
+}
+.page_nav a:hover {
+    background-color: #f8f8f8;
+    color: black;
+    border-radius: 2px;
+    text-decoration: none;
+}
+footer {
+    border-top: 1px solid #313131;
+    height: 90px;
+    width: 960px;
+    float: left;
+    color: #a7a7a7;
+}
+footer ul {
+    float: left;
+}
+.footer_nav a {
+    color: #a7a7a7;
+}
+footer h1 {
+    color: #fff;
+    margin: 12px 0 0 0;
+    text-transform: uppercase;
+
+}
+.arr {
+    float: right;
+}
+.footer_nav {
+    margin-top: 10px;
+    color: #a7a7a7;
+}
+.footer_txt {
+    float: right;
+}
+.arr {
+    font-size: 12px;
+    font-weight: 16px;
 }
